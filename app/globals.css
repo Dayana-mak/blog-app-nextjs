@@ -1,6 +1,11 @@
 :root {
-  --background: #fff;
-  --foreground: #171717;
+  --white: #fff;
+  --black: #2C2C2C;
+  --black-20: #6E6E6E;
+  --black-30: #4B4B4B;
+  --primary: #1473E6;
+  --border: #F5F5F5;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,9 +22,9 @@ body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--foreground);
-  background: var(--background);
+  font-family: var(--font-open-sans), Arial, Helvetica, sans-serif;
+  color: var(--black-20);
+  background: var(--white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
