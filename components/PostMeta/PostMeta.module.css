@@ -1,0 +1,33 @@
+.post-meta {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.category {
+  color: var(--black-30)
+}
+
+.date .reading-time {
+  color: var(--black-20);
+}
+
+.link {
+  position: relative;
+  padding-right: 20px;
+  color: var(--primary);
+}
+
+.link::after {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: '';
+  background-image: url('/arrow.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateY(-50%);
+}
