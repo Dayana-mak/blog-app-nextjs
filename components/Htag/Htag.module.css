@@ -1,0 +1,19 @@
+.heading {
+  font-weight: 700;
+  color: var(--black)
+}
+
+.h1 {
+  font-size: 34px;
+  line-height: 46px;
+}
+
+.h2 {
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.h3 {
+  font-size: 18px;
+  line-height: 25px;
+}
