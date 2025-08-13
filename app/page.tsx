@@ -1,4 +1,4 @@
-import { Htag, LikeCounter, P, PostCard, PostMeta } from '@/components';
+import { Htag, LikeCounter, P, Post, PostCard, PostMeta } from '@/components';
 import type { JSX } from 'react';
 
 export default function Home(): JSX.Element {
@@ -12,6 +12,8 @@ export default function Home(): JSX.Element {
       <P size="l">Как работать с CSS Grid</P>
       <LikeCounter count={4} />
 
+      <Post />
+      
       <PostMeta type="link" href="#">Читать</PostMeta>
       <PostMeta type="category">Категория</PostMeta>
       <PostMeta type="date">Дата</PostMeta>
