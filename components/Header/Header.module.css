@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 10px;
+}
+
+.header span {
+  font-size: 40px;
+  line-height: 54px;
+  color: #000;
+}
+
+.header svg {
+  width: 24px;
+  height: 24px;
+  stroke: var(--black-30);
+}
+
+
+
+

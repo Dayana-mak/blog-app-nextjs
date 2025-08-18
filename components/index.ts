@@ -5,3 +5,4 @@ export * from './PostMeta/PostMeta';
 export * from './PostCard/PostCard';
 export * from './Post/Post';
 export * from './LikeButton/LikeButton';
+export * from './Header/Header';

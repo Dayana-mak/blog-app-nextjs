@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Open_Sans } from 'next/font/google';
 import './globals.css';
 import type { JSX } from 'react/jsx-dev-runtime';
+import { Header } from '@/components/Header/Header';
 
 const openSans = Open_Sans({
   variable: '--font-open-sans',
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>): JSX.Element {
   return (
     <html lang="ru">
-      <body className={openSans.variable}>{children}</body>
+      <body className={openSans.variable}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
