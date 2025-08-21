@@ -22,8 +22,10 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body className={openSans.variable}>
-        <Header />
-        {children}
+        <div className="wrapper">
+          <Header className="header" />
+          <main className="main">{children}</main>
+        </div>
       </body>
     </html>
   );

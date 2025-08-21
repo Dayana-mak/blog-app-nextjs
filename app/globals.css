@@ -29,6 +29,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-areas: 
+      ". header ."
+      ". main .";
+  grid-template-columns: auto minmax(350px, 1120px) auto
+
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
