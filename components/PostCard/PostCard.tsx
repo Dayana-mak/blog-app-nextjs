@@ -24,7 +24,14 @@ export const PostCard = ({
     <article className={cn(styles['post-card'], className)}>
       {imageLink && (
         <div className={styles['image-wrapper']}>
-          <Image className={styles['image']} src={imageLink} alt={title} width={300} height={192} />
+          <Image
+            className={styles['image']}
+            src={imageLink}
+            alt={title}
+            width={300}
+            height={192}
+            priority={true}
+          />
         </div>
       )}
       <div className={styles['content-wrapper']}>
