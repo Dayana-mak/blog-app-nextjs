@@ -3,3 +3,7 @@ export * from './P/P';
 export * from './LikesCounter/LikeCounter';
 export * from './PostMeta/PostMeta';
 export * from './PostCard/PostCard';
+export * from './Post/Post';
+export * from './LikeButton/LikeButton';
+export * from './Header/Header';
+export * from './PostsList/PostsList';

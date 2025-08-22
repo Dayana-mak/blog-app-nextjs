@@ -1,10 +1,11 @@
-import { Htag, LikeCounter, P, PostCard, PostMeta } from '@/components';
+import { PostsList } from '@/components';
 import type { JSX } from 'react';
 
 export default function Home(): JSX.Element {
   return (
     <>
-      <Htag tag="h1">Как работать с CSS Grid</Htag>
+    <PostsList />
+      {/* <Htag tag="h1">Как работать с CSS Grid</Htag>
       <Htag tag="h2">Как работать с CSS Grid</Htag>
       <Htag tag="h3">Как работать с CSS Grid</Htag>
       <P size="s">Как работать с CSS Grid</P>
@@ -12,6 +13,8 @@ export default function Home(): JSX.Element {
       <P size="l">Как работать с CSS Grid</P>
       <LikeCounter count={4} />
 
+      <Post />
+      
       <PostMeta type="link" href="#">Читать</PostMeta>
       <PostMeta type="category">Категория</PostMeta>
       <PostMeta type="date">Дата</PostMeta>
@@ -46,7 +49,7 @@ export default function Home(): JSX.Element {
         title="Как работать с CSS Grid"
         description="Грид-раскладка (CSS Grid Layout) представляет собой двумерную систему сеток в CSS. Гриды подойдут и для верстки основных областей страницы.."
         imageLink="/PostImage.png"
-      />
+      /> */}
     </>
   );
 }
