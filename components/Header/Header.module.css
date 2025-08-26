@@ -14,7 +14,7 @@
 .header svg {
   width: 24px;
   height: 24px;
-  stroke: var(--black-30);
+  color: var(--black-30);
 }
 
 
