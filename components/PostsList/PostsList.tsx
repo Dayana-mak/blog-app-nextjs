@@ -21,7 +21,7 @@ export async function PostsList({ className }: PostsListProps): Promise<JSX.Elem
           date="1 месяц назад"
           likesCount={4}
           readingTime="3 минуты"
-          link="#"
+          link={`/posts/${post.id}`}
           title={post.title}
           description={post.body}
           imageLink="/PostImage.png"
