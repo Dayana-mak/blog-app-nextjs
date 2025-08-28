@@ -2,6 +2,7 @@ import type { JSX } from 'react/jsx-dev-runtime';
 import type  { PostMetaProps } from './PostMeta.props';
 import cn from 'classnames';
 import styles from './PostMeta.module.css';
+import Link from 'next/link';
 
 export const PostMeta = ({ type, className, href, children }: PostMetaProps): JSX.Element => {
   const postMetaClass = cn(styles['post-meta'], styles[type], className);
@@ -13,10 +14,11 @@ export const PostMeta = ({ type, className, href, children }: PostMetaProps): JS
     case 'reading-time':
       return <span className={postMetaClass}>{children}</span>;
     case 'link':
+      if(!href) return <></>;
       return (
-        <a className={postMetaClass} href={href}>
+        <Link className={postMetaClass} href={href}>
           {children}
-        </a>
+        </Link>
       );
     default:
       return <></>;
