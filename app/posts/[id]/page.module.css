@@ -1,0 +1,14 @@
+.post-meta-block {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 12px;
+}
+
+.post-meta-block> :not(:last-child)::after {
+  margin: 0 0.5rem;
+  color: #999;
+  content: "·";
+
+}
