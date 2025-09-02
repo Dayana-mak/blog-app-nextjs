@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { P } from '../P/P';
 import { Htag } from '../Htag/Htag';
 import { PostMeta } from '../PostMeta/PostMeta';
-import { LikeCounter } from '../LikesCounter/LikeCounter';
+import { LikeCounter } from '../LikeCounter/LikeCounter';
 import styles from './PostCard.module.css';
 import cn from 'classnames';
 
